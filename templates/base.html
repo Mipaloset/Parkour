@@ -4,10 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header class="border-teal-400">
-    <p>Parkour</p>
+<body class="bg-slate-200">
+  <header class="bg-white border-black border-2 flex justify-between p-6 mt-2">
+    <h1 class="text-red-900 font-bold">Parkour</h1>
+
+    <ul class="flex space-x-2 center text-green-600 text-right mr-2 text-xl">
+      <li>Index</li>
+    </ul>
+    
   </header>
   {%block content%}
   {%endblock%}
